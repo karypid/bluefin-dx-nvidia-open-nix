@@ -24,5 +24,5 @@ dnf5 install -y tmux
 systemctl enable podman.socket
 
 mkdir /nix
-touch /nix/.keep
+echo "keep" > /nix/.keep
 
